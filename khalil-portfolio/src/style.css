@@ -160,6 +160,40 @@ html {
   text-align: left;
 }
 
+.contact-section {
+  text-align: center;
+  padding-bottom: 10vh;
+}
+
+.contact-heading {
+  color: #EFF1F3 !important;
+  font-size: 2.6em !important;
+  font-weight: 500 !important;
+  padding-bottom: 0.4em;
+}
+
+.contact-btn {
+  max-width: 250px !important;
+  font-size: 1.1em !important;
+  border-radius: 0% !important;
+}
+
+.contact-btn-top {
+  max-width: 250px !important;
+  font-size: 1.1em !important;
+  border-radius: 0% !important;
+  border-top-right-radius: 10px !important;
+  border-top-left-radius: 10px !important;
+}
+
+.contact-btn-bottom {
+  max-width: 250px !important;
+  font-size: 1.1em !important;
+  border-radius: 0% !important;
+  border-bottom-right-radius: 10px !important;
+  border-bottom-left-radius: 10px !important;
+}
+
 .about-text {
   color: #EFF1F3 !important;
   font-size: 1.3em !important;
