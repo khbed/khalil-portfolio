@@ -7,7 +7,7 @@ import { FaAt, FaDiscord, FaGithub, FaLinkedinIn, FaRegCopy } from "react-icons/
 
 function Contact() {
   const [showA, setShowA] = useState(false);
-  const [showB, setShowB] = useState(true);
+  const [showB, setShowB] = useState(false);
 
   const toggleShowB = () => setShowB(!showB);
 
@@ -94,11 +94,11 @@ function Contact() {
       </Row>
 
       <Row style={{paddingTop: "3vh", justifyContent: "center", position: "relative"}}>
-        <Toast onClose={() => setShowA(false)} show={showA} delay={3000} autohide style={{position: "absolute"}}>
+        <Toast onClose={() => setShowA(false)} show={showA} delay={2000} autohide style={{position: "absolute"}}>
           <Toast.Body style={{color: "#E94F37"}}> Discord username copied to clipboard!</Toast.Body>
         </Toast>
 
-        <Toast onClose={() => setShowB(false)} show={showB} delay={3000} autohide style={{position: "absolute"}}>
+        <Toast onClose={() => setShowB(false)} show={showB} delay={2000} autohide style={{position: "absolute"}}>
           <Toast.Body style={{color: "#E94F37"}}> Email address copied to clipboard!</Toast.Body>
         </Toast>
       </Row>

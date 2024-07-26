@@ -19,10 +19,11 @@ function Resume() {
       <Container fluid className="resume-section">
         <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button
+            className="home-learn-more-btn"
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px" }}
+            style={{ maxWidth: "250px", fontSize: "1.1em"}}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
