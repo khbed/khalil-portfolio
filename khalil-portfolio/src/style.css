@@ -55,3 +55,20 @@
 .home-learn-more-btn:hover{
   transform: translateY(-2px) !important;
 }
+
+/* ----------- ABOUT SECTION ----------- */
+
+.about-section {
+  color: #EFF1F3 !important;
+}
+
+.tools-heading {
+  color: #EFF1F3 !important;
+  font-size: 2.3em !important;
+  font-weight: 500 !important;
+  text-align: left;
+}
+
+.orange {
+  color: #E94F37 !important;
+}

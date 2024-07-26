@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Type from "src/components/Home/Type";
+import About from "src/components/About/About";
 import profilePicture from "src/assets/profile-picture.png";
 import Button from "react-bootstrap/Button";
 import { FaAngleDoubleDown } from "react-icons/fa";
@@ -51,6 +52,9 @@ function Home() {
           </Row>
         </Container>
       </Container>
+      <div ref={ref}>
+        <About />
+      </div>
     </section>
   );
 }
