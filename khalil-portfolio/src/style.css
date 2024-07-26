@@ -120,8 +120,8 @@ html {
 
 .btn-primary {
   color: #EFF1F3 !important;
-  background-color: #892d1f !important;
-  border-color: #892d1f !important;
+  background-color: #9a3323 !important;
+  border-color: #9a3323 !important;
 }
 
 .btn-primary:hover {
@@ -142,7 +142,7 @@ html {
 
 .about-section {
   color: #EFF1F3 !important;
-  padding-top: 15vh;
+  padding-top: 13vh;
 }
 
 .about-heading {
@@ -197,7 +197,7 @@ html {
 .about-text {
   color: #EFF1F3 !important;
   font-size: 1.3em !important;
-  padding-bottom: 1em;
+  padding-bottom: 0.9em;
 }
 
 .skill-name-text {
@@ -367,8 +367,8 @@ html {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #892d1f !important;
-  border-color: #892d1f !important;
+  background-color: #9a3323 !important;
+  border-color: #9a3323 !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
