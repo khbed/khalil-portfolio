@@ -446,3 +446,42 @@ html {
   background: #EFF1F3;
   border: 2px solid #E94F37;
 }
+
+/* ----------- PROJECTS ----------- */
+
+.project-section {
+  position: relative !important;
+  padding-top: 15vh !important;
+  padding-bottom: 30px !important;
+  text-align: center;
+}
+
+.project-heading {
+  color: #EFF1F3 !important;
+  font-size: 2.6em !important;
+  font-weight: 500 !important;
+  text-align: center;
+}
+
+
+.project-card {
+  padding-top: 50px !important;
+  padding-bottom: 50px !important;
+  padding-left: 25px !important;
+  padding-right: 25px !important;
+  height: auto !important;
+}
+
+.project-card-view {
+  border-radius: 10px !important;
+  background-color: #011627 !important;
+  color: #EFF1F3 !important;
+  opacity: 0.9 !important;
+  transition: all 0.5s ease 0s !important;
+  height: 100% !important;
+  overflow: hidden;
+}
+.project-card-view:hover {
+  transform: scale(1.02) !important;
+  
+}
