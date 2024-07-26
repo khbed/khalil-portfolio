@@ -1,14 +1,16 @@
 import React, { useState, useEffect } from "react";
 import Preloader from "src/components/Pre";
-import NavBar from "src/components/Navbar";
+import Navbar from "src/components/Navbar";
 import Home from "src/components/Home/Home";
+import Footer from "src/components/Footer";
+import Resume from "src/components/Resume/Resume";
 import {
   BrowserRouter as Router,
   Route,
   Routes,
   Navigate
 } from "react-router-dom";
-import ScrollToTop from "src/components/ScrollToTop"
+import ScrollToTop from "src/components/ScrollToTop";
 import "src/style.css";
 import "src/App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -28,12 +30,14 @@ function App() {
     <Router>
       <Preloader load={load} />
       <div className="App" id={load ? "no-scroll" : "scroll"}>
-        <NavBar />
+        <Navbar />
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/resume" element={<Resume />} />
           <Route path="*" element={<Navigate to="/"/>} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

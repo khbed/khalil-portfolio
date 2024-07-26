@@ -2,7 +2,7 @@ import React from "react";
 
 function SkillBar(props) {
   return (
-    <section style={{paddingBottom: "20px"}}>
+    <section style={{paddingBottom: "4vh"}}>
       <h1 className="skill-name-text">
         {props.title}
       </h1>
