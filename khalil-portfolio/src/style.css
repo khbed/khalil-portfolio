@@ -153,6 +153,13 @@ html {
   padding-bottom: 0.5em;
 }
 
+.tools-heading {
+  color: #EFF1F3 !important;
+  font-size: 2.1em !important;
+  font-weight: 500 !important;
+  text-align: left;
+}
+
 .about-text {
   color: #EFF1F3 !important;
   font-size: 1.3em !important;
@@ -176,6 +183,15 @@ html {
   background-color:#E94F37;
   border-radius: 10em; 
   height: 0.3em;
+}
+
+.tech-icons {
+  font-size: 2.5em;
+  transition: all 0.4s ease 0s !important;
+}
+
+.tech-icons:hover {
+  transform: scale(1.2) !important;
 }
 
 /* ----------- NAVIGATION BAR ----------- */

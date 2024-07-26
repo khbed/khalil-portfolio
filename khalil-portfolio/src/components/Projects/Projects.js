@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "src/components/Projects/ProjectCards";
-import qwandle from "src/assets/Projects/qwandle-3.png";
-import myParking from "src/assets/Projects/my-parking-2.png";
-import snake from "src/assets/Projects/snake-1.png";
+import qwandle from "src/assets/Projects/qwandle-3.jpg";
+import myParking from "src/assets/Projects/my-parking-2.jpg";
+import snake from "src/assets/Projects/snake-1.jpg";
 import neurostim from "src/assets/Projects/neuro-stim-1.jpg";
-import realEstateViz from "src/assets/Projects/real-estate-1.png";
+import realEstateViz from "src/assets/Projects/real-estate-1.jpg";
 import water from "src/assets/Projects/water-1.jpg";
 
 function Projects() {
