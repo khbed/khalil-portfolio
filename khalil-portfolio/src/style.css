@@ -1,5 +1,57 @@
+/* ----------- HOME SECTION ----------- */
+
 .home-content {
-    padding: 9rem 0 2rem !important;
-    color: #EFF1F3;
-    text-align: left;
+  color: #EFF1F3;
+  text-align: left;
+}
+
+.heading {
+  font-size: 2.4em !important;
+}
+
+.main-name {
+  color: #E94F37;
+}
+
+.Typewriter__wrapper {
+  font-size: 2.2em !important;
+  color: #E94F37 !important;
+  font-weight: 600 !important;
+}
+.Typewriter__cursor {
+  font-size: 2.4em !important;
+  color: #E94F37 !important;
+}
+
+@media (max-width: 767px) {
+  .Typewriter__wrapper {
+    font-size: 1.4em !important;
+    font-weight: 500 !important;
+    position: absolute !important;
   }
+  .Typewriter__cursor {
+    display: none !important;
+  }
+}
+
+/* ----------- BUTTONS ----------- */
+
+.btn-primary {
+  color: #EFF1F3 !important;
+  background-color: #892d1f !important;
+  border-color: #892d1f !important;
+}
+
+.btn-primary:hover {
+  color: #EFF1F3 !important;
+  background-color: #E94F37 !important;
+  border-color: #E94F37 !important;
+}
+
+.home-learn-more-btn {
+  transition: all 0.3s ease-out 0s !important;
+}
+
+.home-learn-more-btn:hover{
+  transform: translateY(-2px) !important;
+}

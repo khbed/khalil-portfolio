@@ -16,29 +16,25 @@ function Home() {
       <Container fluid>
         <Container className="home-content">
           <Row>
-            <Col md={8} className="home-header">
-              <h1 style={{ paddingBottom: 15 }} className="heading">
+            <Col md={8} style={{textAlign: "left"}}>
+              <h1 className="heading">
                 Hi There!{" "}
-                <span className="wave" role="img" aria-labelledby="wave">
-                  👋🏽
-                </span>
               </h1>
 
-              <h1 className="heading-name">
+              <h1 className="heading">
                 I'M
                 <strong className="main-name"> KHALIL BEDDOUCH</strong>
               </h1>
 
-              <div style={{ padding: 50, textAlign: "left" }}>
+              <div>
                 <Type />
               </div>
             </Col>
 
-            <Col md={4} style={{alignContent: "center"}}>
+            <Col md={4} style={{alignItems: "center", textAlign: "center"}}>
               <img
                 src={profilePicture}
                 alt="home pic"
-                className="img-fluid"
                 style={{ maxHeight: "300px" }}
               />
             </Col>

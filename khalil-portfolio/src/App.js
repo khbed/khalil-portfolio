@@ -1,4 +1,3 @@
-import './App.css';
 import React, { useState, useEffect } from "react";
 import Preloader from "src/components/Pre";
 import Home from "src/components/Home/Home";
