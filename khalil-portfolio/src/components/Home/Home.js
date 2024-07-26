@@ -14,15 +14,15 @@ function Home() {
   };
   return (
     <section>
-      <Container fluid>
+      <Container fluid style={{paddingTop: "25vh"}}>
         <Container className="home-content">
-          <Row>
-            <Col md={8} style={{textAlign: "left"}}>
-              <h1 className="heading">
+          <Row style={{paddingBottom: "5vh"}}>
+            <Col md={7} style={{textAlign: "left", paddingTop: "5vh", paddingBottom: "5vh"}}>
+              <h1 style={{paddingBottom: "0.2em"}} className="heading">
                 Hi There!{" "}
               </h1>
 
-              <h1 className="heading">
+              <h1 style={{paddingBottom: "1.5em"}} className="heading">
                 I'M
                 <strong className="main-name"> KHALIL BEDDOUCH</strong>
               </h1>
@@ -32,11 +32,11 @@ function Home() {
               </div>
             </Col>
 
-            <Col md={4} style={{alignItems: "center", textAlign: "center"}}>
+            <Col md={5} className="image-section">
               <img
                 src={profilePicture}
                 alt="home pic"
-                style={{ maxHeight: "300px" }}
+                style={{ maxHeight: "40vh" }}
               />
             </Col>
           </Row>
@@ -45,7 +45,7 @@ function Home() {
             <Button
               className="home-learn-more-btn"
               onClick={() => handleClick()}
-              style={{ maxWidth: "250px"}}
+              style={{ maxWidth: "250px", fontSize: "1.1em"}}
             >
               Discover More &nbsp; <FaAngleDoubleDown/>
             </Button>

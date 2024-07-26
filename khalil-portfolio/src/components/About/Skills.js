@@ -6,7 +6,7 @@ function Skills() {
   return (
   <Row style={{textAlign: "left", paddingBottom: "50px"}}>
     <Col md={8}>
-      <h1 className="skill-class-text">
+      <h1 className="about-heading">
         Main Skills
       </h1>
       <Row style={{textAlign: "left"}}>
@@ -31,7 +31,7 @@ function Skills() {
       </Row>
   </Col>
   <Col md={4}>
-      <h1 className="skill-class-text">
+      <h1 className="about-heading">
         Secondary Skills
       </h1>
 
