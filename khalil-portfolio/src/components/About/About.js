@@ -1,6 +1,7 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { GiSevenPointedStar } from "react-icons/gi";
+import Skills from "src/components/About/Skills";
 
 function About() {
   return (
@@ -50,7 +51,7 @@ function About() {
           </Col>
         </Row>
 
-        {/* <Skills /> */}
+        <Skills />
 
         <h1 className="tools-heading">
           Programming <strong className="orange"> Languages </strong>

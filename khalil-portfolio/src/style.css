@@ -1,3 +1,9 @@
+/* ----------- GLOBAL ----------- */
+
+.orange {
+  color: #E94F37 !important;
+}
+
 /* ----------- HOME SECTION ----------- */
 
 .home-content {
@@ -69,6 +75,27 @@
   text-align: left;
 }
 
-.orange {
-  color: #E94F37 !important;
+.skill-class-text {
+  color: #EFF1F3;
+  font-size: 2.1em; 
+  font-weight: 500; 
+}
+
+.skill-name-text {
+  color: #EFF1F3;
+  font-size: 1em;
+  font-weight: 10;
+}
+
+.bar-background {
+  background-color: #EFF1F3;
+  width: 90%; 
+  border-radius: 10em; 
+  height: 0.2em;
+}
+
+.bar-fill {
+  background-color:#E94F37;
+  border-radius: 10em; 
+  height: 0.2em;
 }
