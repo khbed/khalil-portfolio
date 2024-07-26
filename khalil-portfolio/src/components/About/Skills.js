@@ -4,7 +4,7 @@ import SkillBar from "src/components/About/SkillBar";
 
 function Skills() {
   return (
-  <Row style={{textAlign: "left", paddingBottom: "50px"}}>
+  <Row style={{textAlign: "left", paddingBottom: "10vh"}}>
     <Col md={8}>
       <h1 className="about-heading">
         Main Skills

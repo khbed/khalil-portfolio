@@ -13,7 +13,7 @@ function About() {
               About <strong className="orange">ME</strong>
             </h1>
 
-            <div style={{paddingLeft: "1.5em"}}>
+            <div style={{paddingLeft: "2vw"}}>
               <h2 className="about-text">
               Hello! I'm Khalil Beddouch, a passionate software developer and a first-generation immigrant to Canada from Morocco.
               </h2>
@@ -31,7 +31,7 @@ function About() {
               Life Beyond Code - <strong className="orange">My Hobbies</strong>
             </h2>
 
-            <div style={{paddingLeft: "1.5em"}}>
+            <div style={{paddingLeft: "2vw"}}>
                 <h2 className="about-text">
                 <GiSevenPointedStar/> &nbsp; Travelling
               </h2>
