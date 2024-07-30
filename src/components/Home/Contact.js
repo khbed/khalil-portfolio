@@ -3,13 +3,11 @@ import { useState } from "react";
 import Button from "react-bootstrap/Button";
 import Toast from 'react-bootstrap/Toast';
 import { Col, Row } from "react-bootstrap";
-import { FaAt, FaDiscord, FaGithub, FaLinkedinIn, FaRegCopy } from "react-icons/fa";
+import { FaAt, FaDiscord, FaGithub, FaLinkedinIn } from "react-icons/fa";
 
 function Contact() {
   const [showA, setShowA] = useState(false);
   const [showB, setShowB] = useState(false);
-
-  const toggleShowB = () => setShowB(!showB);
 
   function copyDiscord() {
    navigator.clipboard.writeText("khalil2000");
