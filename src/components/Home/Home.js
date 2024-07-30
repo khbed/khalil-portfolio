@@ -14,43 +14,40 @@ function Home() {
   };
   return (
     <section>
-      <Container fluid style={{paddingTop: "25vh"}}>
-        <Container className="home-content">
-          <Row style={{paddingBottom: "5vh"}}>
-            <Col md={7} style={{textAlign: "left", paddingTop: "5vh", paddingBottom: "5vh"}}>
-              <h1 style={{paddingBottom: "0.2em"}} className="heading">
-                Hi There!{" "}
-              </h1>
+      <Container fluid className="home-container">
+        <Row>
+          <Col md={{span: 5, offset: 1}} className="home-title">
+            <h1 className="heading">
+              Hi There!{" "}
+            </h1>
 
-              <h1 style={{paddingBottom: "1.5em"}} className="heading">
-                I'M
-                <strong className="main-name"> KHALIL BEDDOUCH</strong>
-              </h1>
+            <h1 style={{paddingBottom: "1.5em"}} className="heading">
+              I'M <strong className="orange"> KHALIL BEDDOUCH</strong>
+            </h1>
 
-              <div>
-                <Type />
-              </div>
-            </Col>
+            <div>
+              <Type />
+            </div>
+          </Col>
 
-            <Col md={5} className="image-section">
-              <img
-                src={profilePicture}
-                alt="home pic"
-                style={{ maxHeight: "40vh" }}
-              />
-            </Col>
-          </Row>
+          <Col md={{span: 3, offset: 2}} className="home-image">
+            <img
+              src={profilePicture}
+              alt="home pic"
+              style={{ maxHeight: "40vh" }}
+            />
+          </Col>
+        </Row>
 
-          <Row className="home-learn-more-section" style={{justifyContent: "center",  position: "relative"}}>
-            <Button
-              className="home-learn-more-btn"
-              onClick={() => handleClick()}
-              style={{ maxWidth: "250px", fontSize: "1.1em"}}
-            >
-              Discover More &nbsp; <FaAngleDoubleDown/>
-            </Button>
-          </Row>
-        </Container>
+        <Row className="home-learn-more-section" style={{justifyContent: "center",  position: "relative"}}>
+          <Button
+            className="home-learn-more-btn"
+            onClick={() => handleClick()}
+            style={{ maxWidth: "250px", fontSize: "1.1em"}}
+          >
+            Discover More &nbsp; <FaAngleDoubleDown/>
+          </Button>
+        </Row>
       </Container>
       <div ref={ref}>
         <About />

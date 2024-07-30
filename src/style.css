@@ -69,31 +69,33 @@ html {
 
 /* ----------- HOME SECTION ----------- */
 
-.home-content {
+.home-container {
+  padding-top: 25vh;
   color: #EFF1F3;
   text-align: left;
 }
 
-.heading {
-  font-size: 2.6em !important;
-  padding-left: 1vw;
+.home-title {
+  padding-top: 5vh;
+  padding-bottom: 10vh;
+  text-align: left;
 }
 
-.main-name {
-  color: #E94F37;
-}
-
-.image-section {
+.home-image {
+  padding-bottom: 10vh;
   align-content: center;
   text-align: center;
-  padding-bottom: 5vh;
+}
+
+.heading {
+  font-size: 2.6em !important;
+  padding-bottom: 0.2em;
 }
 
 .Typewriter__wrapper {
   font-size: 2.6em !important;
   color: #E94F37 !important;
   font-weight: 600 !important;
-  padding-left: 1vw;
 }
 .Typewriter__cursor {
   font-size: 2.6em !important;

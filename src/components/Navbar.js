@@ -29,12 +29,11 @@ function NavBar() {
 
   return (
     <Navbar
-      expanded={expand}
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
     >
-      <Navbar.Brand href="/" className="d-flex">
+      <Navbar.Brand href="/">
         <img src={logo} className="img-fluid logo" alt="brand" />
       </Navbar.Brand>
       <Navbar.Toggle
@@ -43,9 +42,6 @@ function NavBar() {
           updateExpanded(expand ? false : "expanded");
         }}
       >
-        <span></span>
-        <span></span>
-        <span></span>
       </Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ms-auto" defaultActiveKey="#home">
