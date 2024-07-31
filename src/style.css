@@ -75,6 +75,14 @@ html {
   text-align: left;
 }
 
+@media (max-width: 767px) {
+  .home-container {
+    padding-top: 10vh;
+    color: #EFF1F3;
+    text-align: left;
+  }
+}
+
 .home-title {
   padding-top: 5vh;
   padding-bottom: 10vh;

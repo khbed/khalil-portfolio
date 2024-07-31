@@ -13,7 +13,7 @@ function About() {
         </h1>
       </Col>
       
-      <Col style={{paddingBottom: "5vh"}} md={{span: 7, offset: 1}}>
+      <Col style={{paddingBottom: "5vh"}} md={{span: 8, offset: 1}}>
         <h2 className="about-text">
           Hello! I'm Khalil Beddouch, a passionate software developer and a first-generation immigrant to Canada from Morocco.
         </h2>
@@ -33,7 +33,7 @@ function About() {
         </h1>
       </Col>
       
-      <Col style={{paddingBottom: "10vh"}} md={{span: 7, offset: 1}}>
+      <Col style={{paddingBottom: "10vh"}} md={{span: 8, offset: 1}}>
         <h2 className="about-text">
           <GiSevenPointedStar/> &nbsp; Travelling
         </h2>
