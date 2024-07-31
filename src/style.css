@@ -162,10 +162,8 @@ html {
 }
 
 .tools-heading {
-  color: #EFF1F3 !important;
-  font-size: 2.1em !important;
-  font-weight: 500 !important;
-  text-align: left;
+  color: #EFF1F3;
+  font-size: 2.1em;
 }
 
 .contact-section {

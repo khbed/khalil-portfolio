@@ -22,7 +22,7 @@ import { FaAws, FaDocker } from "react-icons/fa";
 
 function Tools() {
   return (
-    <Col md={{offset: 1}} style={{paddingBottom: "10vh"}}>
+    <Col md={{offset: 1, span: 9}} style={{paddingBottom: "10vh"}}>
       <h1 className="tools-heading">
         Programming <strong className="orange"> Languages </strong>
       </h1>
