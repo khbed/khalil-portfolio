@@ -1,8 +1,8 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Col } from "react-bootstrap";
 import { GiSevenPointedStar } from "react-icons/gi";
 import Skills from "src/components/About/Skills";
-import Tools from "./Tools";
+import Tools from "src/components/About/Tools";
 
 function About() {
   return (
