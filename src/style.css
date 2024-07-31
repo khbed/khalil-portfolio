@@ -559,5 +559,5 @@ html {
   overflow: hidden;
 }
 .project-card-view:hover {
-  transform: scale(1.02) !important;
+  transform: scale(1.1) !important;
 }
