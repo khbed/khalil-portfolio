@@ -501,11 +501,28 @@ html {
 
 /* ----------- PROJECTS ----------- */
 
-.project-section {
-  position: relative !important;
-  padding-top: 15vh !important;
-  padding-bottom: 30px !important;
+.project-title {
+  padding-top: 15vh;
   text-align: center;
+}
+
+.project-subtitle {
+  color: #EFF1F3;
+  font-size: 1.15em;
+}
+
+.project-cards-row {
+  padding-top: 5vh;
+  padding-right: 10vw;
+  padding-left: 10vw;
+}
+
+.project-card {
+  padding-top: 2vh !important;
+  padding-bottom: 10vh !important;
+  padding-left: 2vw !important;
+  padding-right: 2vw !important;
+  height: auto !important;
 }
 
 .project-heading {
@@ -515,25 +532,14 @@ html {
   text-align: center;
 }
 
-
-.project-card {
-  padding-top: 50px !important;
-  padding-bottom: 50px !important;
-  padding-left: 25px !important;
-  padding-right: 25px !important;
-  height: auto !important;
-}
-
 .project-card-view {
   border-radius: 10px !important;
   background-color: #011627 !important;
   color: #EFF1F3 !important;
   opacity: 0.9 !important;
   transition: all 0.5s ease 0s !important;
-  height: 100% !important;
   overflow: hidden;
 }
 .project-card-view:hover {
   transform: scale(1.02) !important;
-  
 }
