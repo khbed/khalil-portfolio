@@ -4,9 +4,9 @@ import ProjectCard from "src/components/Projects/ProjectCards";
 import qwandle from "src/assets/Projects/qwandle-3.jpg";
 import myParking from "src/assets/Projects/my-parking-2.jpg";
 import snake from "src/assets/Projects/snake-1.jpg";
-import neurostim from "src/assets/Projects/neuro-stim-1.jpg";
+import neurostim from "src/assets/Projects/neuro-stim-3.jpg";
 import realEstateViz from "src/assets/Projects/real-estate-1.jpg";
-import water from "src/assets/Projects/water-1.jpg";
+import water from "src/assets/Projects/water-2.jpg";
 
 function Projects() {
   return (
