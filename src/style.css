@@ -141,7 +141,7 @@ html {
   transform: translateY(-2px) !important;
 }
 
-/* ----------- ABOUT SECTION ----------- */
+/* ----------- ABOUT ----------- */
 
 .about-section {
   color: #EFF1F3;
@@ -202,22 +202,32 @@ html {
   border-bottom-left-radius: 10px !important;
 }
 
+/* ----------- SKILLS ----------- */
 
+.skills-section {
+  padding-bottom: 10vh;
+}
 
-.skill-name-text {
+.skills-heading {
   color: #EFF1F3;
-  font-size: 1em;
+  font-size: 2.1em;
+  padding-bottom: 0.7em;
+}
+
+.skill-name {
+  color: #EFF1F3;
+  font-size: 1.1em;
   font-weight: 10;
 }
 
-.bar-background {
+.skill-bar-background {
   background-color: #EFF1F3;
   width: 90%; 
   border-radius: 10em; 
   height: 0.3em;
 }
 
-.bar-fill {
+.skill-bar-fill {
   background-color:#E94F37;
   border-radius: 10em; 
   height: 0.3em;

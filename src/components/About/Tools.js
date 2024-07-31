@@ -22,7 +22,7 @@ import { FaAws, FaDocker } from "react-icons/fa";
 
 function Tools() {
   return (
-    <section style={{paddingBottom: "10vh"}}>
+    <Col md={{offset: 1}} style={{paddingBottom: "10vh"}}>
       <h1 className="tools-heading">
         Programming <strong className="orange"> Languages </strong>
       </h1>
@@ -91,7 +91,7 @@ function Tools() {
           <SiGithub title="Git/Github"/>
         </Col>
       </Row>
-    </section>
+    </Col>
     
   );
 }
