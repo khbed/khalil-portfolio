@@ -29,6 +29,7 @@ function NavBar() {
 
   return (
     <Navbar
+      expanded={expand}
       fixed="top"
       expand="md"
       className={navColour ? "sticky" : "navbar"}
@@ -42,6 +43,9 @@ function NavBar() {
           updateExpanded(expand ? false : "expanded");
         }}
       >
+        <span></span>
+        <span></span>
+        <span></span>
       </Navbar.Toggle>
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="ms-auto" defaultActiveKey="#home">
