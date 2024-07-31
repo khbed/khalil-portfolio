@@ -39,7 +39,7 @@ function Home() {
           </Col>
         </Row>
 
-        <Row className="home-learn-more-section" style={{justifyContent: "center",  position: "relative"}}>
+        <Row className="home-learn-more-section">
           <Button
             className="home-learn-more-btn"
             onClick={() => handleClick()}

@@ -116,6 +116,7 @@ html {
 .home-learn-more-section {
   padding-top: 5vh;
   padding-bottom: 5vh;
+  justify-content: center;
 }
 
 /* ----------- BUTTONS ----------- */
@@ -143,16 +144,21 @@ html {
 /* ----------- ABOUT SECTION ----------- */
 
 .about-section {
-  color: #EFF1F3 !important;
+  color: #EFF1F3;
   padding-top: 13vh;
 }
 
 .about-heading {
-  color: #EFF1F3 !important;
-  font-size: 2.1em !important;
-  font-weight: 500 !important;
-  text-align: left;
-  padding-bottom: 0.5em;
+  color: #EFF1F3;
+  font-size: 2.1em;
+  padding-bottom: 0.7em;
+}
+
+.about-text {
+  color: #EFF1F3;
+  font-size: 1.3em;
+  padding-left: 2vw;
+  padding-bottom: 0.9em;
 }
 
 .tools-heading {
@@ -196,11 +202,7 @@ html {
   border-bottom-left-radius: 10px !important;
 }
 
-.about-text {
-  color: #EFF1F3 !important;
-  font-size: 1.3em !important;
-  padding-bottom: 0.9em;
-}
+
 
 .skill-name-text {
   color: #EFF1F3;

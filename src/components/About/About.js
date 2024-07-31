@@ -8,56 +8,54 @@ import Contact from "../Home/Contact";
 function About() {
   return (
     <Container fluid className="about-section">
-      <Container>
-        <Row style={{ textAlign: "left", paddingBottom: "10vh"}}>
-          <Col md={9}>
-            <h1 style={{paddingTop: "1vh"}} className="about-heading">
-              About <strong className="orange">ME</strong>
-            </h1>
+      <Col md={{offset: 1}}>
+        <h1 className="about-heading">
+          About <strong className="orange">ME</strong>
+        </h1>
+      </Col>
+      
+      <Col style={{paddingBottom: "5vh"}} md={{span: 7, offset: 1}}>
+        <h2 className="about-text">
+          Hello! I'm Khalil Beddouch, a passionate software developer and a first-generation immigrant to Canada from Morocco.
+        </h2>
 
-            <div style={{paddingLeft: "2vw"}}>
-              <h2 className="about-text">
-              Hello! I'm Khalil Beddouch, a passionate software developer and a first-generation immigrant to Canada from Morocco.
-              </h2>
+        <h2 className="about-text">
+          I have a Bachelor's in Computer Engineering and over 1 year of practical experience in software development through hands-on work and internships.
+        </h2>
 
-              <h2 className="about-text">
-                I have a Bachelor's in Computer Engineering and over 1 year of practical experience in software development through hands-on work and internships.
-              </h2>
+        <h2 className="about-text">
+          From developing interactive websites to creating innovative solutions for real-world problems, I thrive on challenges and enjoy working collaboratively to achieve success.
+        </h2>
+      </Col>
 
-              <h2 className="about-text">
-              From developing interactive websites to creating innovative solutions for real-world problems, I thrive on challenges and enjoy working collaboratively to achieve success.
-              </h2>
-            </div>
-            
-            <h2 style={{paddingTop: "5vh"}} className="about-heading">
-              Life Beyond Code - <strong className="orange">My Hobbies</strong>
-            </h2>
+      <Col md={{offset: 1}}>
+        <h1 className="about-heading">
+          Life Beyond Code - <strong className="orange">My Hobbies</strong>
+        </h1>
+      </Col>
+      
+      <Col style={{paddingBottom: "10vh"}} md={{span: 7, offset: 1}}>
+        <h2 className="about-text">
+          <GiSevenPointedStar/> &nbsp; Travelling
+        </h2>
 
-            <div style={{paddingLeft: "2vw"}}>
-                <h2 className="about-text">
-                <GiSevenPointedStar/> &nbsp; Travelling
-              </h2>
+        <h2 className="about-text">
+          <GiSevenPointedStar/> &nbsp; Hiking and Running 
+        </h2>
 
-              <h2 className="about-text">
-                <GiSevenPointedStar/> &nbsp; Hiking and Running 
-              </h2>
-
-              <h2 className="about-text">
-                <GiSevenPointedStar/> &nbsp; Learning new languages 
-              </h2>
-              
-              <h2 className="about-text">
-                <GiSevenPointedStar/> &nbsp; Designing Games
-              </h2>
-            </div>
-          </Col>
-        </Row>
-
-        <Skills />
-        <Tools />
+        <h2 className="about-text">
+          <GiSevenPointedStar/> &nbsp; Learning new languages 
+        </h2>
         
-        <Contact />
-      </Container>
+        <h2 className="about-text">
+          <GiSevenPointedStar/> &nbsp; Designing Games
+        </h2>
+      </Col>
+
+      <Skills />
+      <Tools />
+      <Contact />
+
     </Container>
   );
 }
