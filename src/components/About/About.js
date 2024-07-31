@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { GiSevenPointedStar } from "react-icons/gi";
 import Skills from "src/components/About/Skills";
 import Tools from "./Tools";
-import Contact from "../Home/Contact";
 
 function About() {
   return (
@@ -54,8 +53,6 @@ function About() {
 
       <Skills />
       <Tools />
-      <Contact />
-
     </Container>
   );
 }

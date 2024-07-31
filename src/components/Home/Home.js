@@ -6,6 +6,7 @@ import profilePicture from "src/assets/profile-picture.png";
 import Button from "react-bootstrap/Button";
 import { FaAngleDoubleDown } from "react-icons/fa";
 import { useRef } from "react";
+import Contact from "src/components/Home/Contact";
 
 function Home() {
   const ref = useRef(null);
@@ -48,10 +49,13 @@ function Home() {
             Discover More &nbsp; <FaAngleDoubleDown/>
           </Button>
         </Row>
+
+        <div ref={ref}>
+          <About />
+        </div>
+
+        <Contact />
       </Container>
-      <div ref={ref}>
-        <About />
-      </div>
     </section>
   );
 }
